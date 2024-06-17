@@ -1,0 +1,236 @@
+{
+    "id": "becf2336-30c4-4f47-9e93-83239e0916ce",
+    "enabled": true,
+    "name": "TestRotateCamera ",
+    "panningX": -573.7662,
+    "panningY": 334.431763,
+    "scaling": 0.641670346,
+    "nodes": {
+        "585154c0-7d96-463e-9e6f-a494913a7360": {
+            "id": "585154c0-7d96-463e-9e6f-a494913a7360",
+            "dataInputs": {
+                "Condition": {
+                    "type": "bool",
+                    "value": "false"
+                }
+            },
+            "typeId": "1b58a074-3c70-412e-ace4-0f12c3f7f16b",
+            "name": "IF_BRANCH",
+            "x": 887.8176,
+            "y": 16.6195889
+        },
+        "006766d5-9630-440d-b203-0d8ab7e32578": {
+            "id": "006766d5-9630-440d-b203-0d8ab7e32578",
+            "dataInputs": {
+                "Camera": {
+                    "type": "Warudo.Plugins.Core.Assets.Cinematography.CameraAsset",
+                    "value": "{\"id\":\"bc77a8de-5252-4bb9-bbfa-ec65adb66c66\",\"name\":\"ビデオカメラ\"}"
+                },
+                "TransitionTime": {
+                    "type": "float",
+                    "value": "3.0"
+                },
+                "TransitionEasing": {
+                    "type": "DG.Tweening.Ease",
+                    "value": "{\"label\":\"Linear\",\"value\":1,\"description\":null,\"icon\":null}"
+                },
+                "Target": {
+                    "type": "Warudo.Plugins.Core.Nodes.CameraOrbitCharacterNode+TargetData",
+                    "value": "{\"id\":\"5c7fbc8c-d85f-4fe5-916c-4ddc0028be12\",\"dataInputs\":{\"X\":{\"type\":\"float\",\"value\":\"-45.0\"},\"Y\":{\"type\":\"float\",\"value\":\"0.65\"},\"Offset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.2,\\\"z\\\":-4.0}\"}}}"
+                }
+            },
+            "typeId": "1626e76a-dbe9-4ab2-bbb3-48481c5a686c",
+            "name": "CAMERA_ORBIT_CHARACTER",
+            "x": 1612.0,
+            "y": 12.0
+        },
+        "f861adc5-1259-461b-8dc3-940773467a28": {
+            "id": "f861adc5-1259-461b-8dc3-940773467a28",
+            "dataInputs": {
+                "Camera": {
+                    "type": "Warudo.Plugins.Core.Assets.Cinematography.CameraAsset",
+                    "value": "{\"id\":\"bc77a8de-5252-4bb9-bbfa-ec65adb66c66\",\"name\":\"ビデオカメラ\"}"
+                },
+                "TransitionTime": {
+                    "type": "float",
+                    "value": "3.0"
+                },
+                "TransitionEasing": {
+                    "type": "DG.Tweening.Ease",
+                    "value": "{\"label\":\"Linear\",\"value\":1,\"description\":null,\"icon\":null}"
+                },
+                "Target": {
+                    "type": "Warudo.Plugins.Core.Nodes.CameraOrbitCharacterNode+TargetData",
+                    "value": "{\"id\":\"9f766094-9161-4f74-8909-b9dba6c52041\",\"dataInputs\":{\"X\":{\"type\":\"float\",\"value\":\"135.0\"},\"Y\":{\"type\":\"float\",\"value\":\"0.65\"},\"Offset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.2,\\\"z\\\":-4.0}\"}}}"
+                }
+            },
+            "typeId": "1626e76a-dbe9-4ab2-bbb3-48481c5a686c",
+            "name": "CAMERA_ORBIT_CHARACTER",
+            "x": 2313.57764,
+            "y": 15.2914839
+        },
+        "31458e77-1e71-4aaf-b9f0-60da290d2f19": {
+            "id": "31458e77-1e71-4aaf-b9f0-60da290d2f19",
+            "dataInputs": {},
+            "typeId": "c7199fa8-e80d-4cd7-b5c7-0410953751cc",
+            "name": "FLIP_FLOP",
+            "x": 1112.27319,
+            "y": 18.9293823
+        },
+        "6a8aa025-ef46-4a33-8f0c-5501caf8ba9f": {
+            "id": "6a8aa025-ef46-4a33-8f0c-5501caf8ba9f",
+            "dataInputs": {
+                "Camera": {
+                    "type": "Warudo.Plugins.Core.Assets.Cinematography.CameraAsset",
+                    "value": "{\"id\":\"bc77a8de-5252-4bb9-bbfa-ec65adb66c66\",\"name\":\"ビデオカメラ\"}"
+                },
+                "TransitionTime": {
+                    "type": "float",
+                    "value": "3.0"
+                },
+                "TransitionEasing": {
+                    "type": "DG.Tweening.Ease",
+                    "value": "{\"label\":\"Linear\",\"value\":1,\"description\":null,\"icon\":null}"
+                },
+                "Target": {
+                    "type": "Warudo.Plugins.Core.Nodes.CameraOrbitCharacterNode+TargetData",
+                    "value": "{\"id\":\"bca5af88-3b2f-43f0-a891-bcfcd69f85eb\",\"dataInputs\":{\"X\":{\"type\":\"float\",\"value\":\"45.0\"},\"Y\":{\"type\":\"float\",\"value\":\"0.65\"},\"Offset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.2,\\\"z\\\":-4.0}\"}}}"
+                }
+            },
+            "typeId": "1626e76a-dbe9-4ab2-bbb3-48481c5a686c",
+            "name": "CAMERA_ORBIT_CHARACTER",
+            "x": 1843.073,
+            "y": 14.6238031
+        },
+        "3c102a77-c6ea-45a0-a67e-c66ed598eb2a": {
+            "id": "3c102a77-c6ea-45a0-a67e-c66ed598eb2a",
+            "dataInputs": {
+                "isMusicTempo": {
+                    "type": "bool",
+                    "value": "true"
+                },
+                "cycleTime": {
+                    "type": "float",
+                    "value": "10.0"
+                },
+                "cycleTimeTempo": {
+                    "type": "float",
+                    "value": "120.0"
+                },
+                "cycleTimeBeet": {
+                    "type": "int",
+                    "value": "1"
+                },
+                "isTimeUpdateRealtime": {
+                    "type": "bool",
+                    "value": "false"
+                }
+            },
+            "typeId": "3A6882FA-635B-4A68-A049-7FE6C6A0B09F",
+            "name": "指定時間ごとに起動（タイマー)",
+            "x": 658.7424,
+            "y": 18.9293823
+        },
+        "a81517e8-4d37-4b71-8ba7-d80d6a68536d": {
+            "id": "a81517e8-4d37-4b71-8ba7-d80d6a68536d",
+            "dataInputs": {},
+            "typeId": "c7199fa8-e80d-4cd7-b5c7-0410953751cc",
+            "name": "FLIP_FLOP",
+            "x": 1338.90393,
+            "y": 260.826019
+        },
+        "62e2e36c-7a77-41e7-8a77-1a3c4fe1d591": {
+            "id": "62e2e36c-7a77-41e7-8a77-1a3c4fe1d591",
+            "dataInputs": {},
+            "typeId": "c7199fa8-e80d-4cd7-b5c7-0410953751cc",
+            "name": "FLIP_FLOP",
+            "x": 1339.0387,
+            "y": 16.6195889
+        },
+        "cc4568b4-3186-42bc-ab3e-1d5a39a6a483": {
+            "id": "cc4568b4-3186-42bc-ab3e-1d5a39a6a483",
+            "dataInputs": {
+                "Camera": {
+                    "type": "Warudo.Plugins.Core.Assets.Cinematography.CameraAsset",
+                    "value": "{\"id\":\"bc77a8de-5252-4bb9-bbfa-ec65adb66c66\",\"name\":\"ビデオカメラ\"}"
+                },
+                "TransitionTime": {
+                    "type": "float",
+                    "value": "3.0"
+                },
+                "TransitionEasing": {
+                    "type": "DG.Tweening.Ease",
+                    "value": "{\"label\":\"Linear\",\"value\":1,\"description\":null,\"icon\":null}"
+                },
+                "Target": {
+                    "type": "Warudo.Plugins.Core.Nodes.CameraOrbitCharacterNode+TargetData",
+                    "value": "{\"id\":\"ee65d251-7c32-473c-9f49-ac9680eab325\",\"dataInputs\":{\"X\":{\"type\":\"float\",\"value\":\"-135.0\"},\"Y\":{\"type\":\"float\",\"value\":\"0.65\"},\"Offset\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.2,\\\"z\\\":-4.0}\"}}}"
+                }
+            },
+            "typeId": "1626e76a-dbe9-4ab2-bbb3-48481c5a686c",
+            "name": "CAMERA_ORBIT_CHARACTER",
+            "x": 2075.85327,
+            "y": 14.2641354
+        }
+    },
+    "dataConnections": [],
+    "flowConnections": [
+        {
+            "outputNode": "a81517e8-4d37-4b71-8ba7-d80d6a68536d",
+            "inputNode": "6a8aa025-ef46-4a33-8f0c-5501caf8ba9f",
+            "outputPort": "A",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "a81517e8-4d37-4b71-8ba7-d80d6a68536d",
+            "inputNode": "cc4568b4-3186-42bc-ab3e-1d5a39a6a483",
+            "outputPort": "B",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "585154c0-7d96-463e-9e6f-a494913a7360",
+            "inputNode": "31458e77-1e71-4aaf-b9f0-60da290d2f19",
+            "outputPort": "IfTrue",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "31458e77-1e71-4aaf-b9f0-60da290d2f19",
+            "inputNode": "62e2e36c-7a77-41e7-8a77-1a3c4fe1d591",
+            "outputPort": "A",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "31458e77-1e71-4aaf-b9f0-60da290d2f19",
+            "inputNode": "a81517e8-4d37-4b71-8ba7-d80d6a68536d",
+            "outputPort": "B",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "3c102a77-c6ea-45a0-a67e-c66ed598eb2a",
+            "inputNode": "585154c0-7d96-463e-9e6f-a494913a7360",
+            "outputPort": "Exit",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "62e2e36c-7a77-41e7-8a77-1a3c4fe1d591",
+            "inputNode": "f861adc5-1259-461b-8dc3-940773467a28",
+            "outputPort": "A",
+            "inputPort": "Enter"
+        },
+        {
+            "outputNode": "62e2e36c-7a77-41e7-8a77-1a3c4fe1d591",
+            "inputNode": "006766d5-9630-440d-b203-0d8ab7e32578",
+            "outputPort": "B",
+            "inputPort": "Enter"
+        }
+    ],
+    "properties": {
+        "id": "d05e502d-4f19-469c-b1c9-ef40367d5d6b",
+        "dataInputs": {
+            "Variables": {
+                "type": "Warudo.Core.Graphs.GraphVariable[]",
+                "value": "[{\"id\":\"855c314d-658f-422e-9d78-1e6509510e78\",\"dataInputs\":{\"Name\":{\"type\":\"string\",\"value\":\"\\\"NewVariable\\\"\"},\"DuplicateNameWarning\":{\"type\":\"string\",\"value\":\"\\\"**A variable with this name already exists.**\\\"\"},\"VariableType\":{\"type\":\"Warudo.Core.Graphs.GraphVariableType\",\"value\":\"{\\\"label\\\":\\\"Vector3\\\",\\\"value\\\":4,\\\"description\\\":null,\\\"icon\\\":null}\"},\"BooleanValue\":{\"type\":\"bool\",\"value\":\"false\"},\"IntegerValue\":{\"type\":\"int\",\"value\":\"0\"},\"FloatValue\":{\"type\":\"float\",\"value\":\"0.0\"},\"StringValue\":{\"type\":\"string\",\"value\":null},\"Vector3Value\":{\"type\":\"UnityEngine.Vector3\",\"value\":\"{\\\"x\\\":0.0,\\\"y\\\":0.0,\\\"z\\\":0.0}\"},\"BooleanListValue\":{\"type\":\"bool[]\",\"value\":\"[]\"},\"IntegerListValue\":{\"type\":\"int[]\",\"value\":\"[]\"},\"FloatListValue\":{\"type\":\"float[]\",\"value\":\"[]\"},\"StringListValue\":{\"type\":\"string[]\",\"value\":\"[]\"},\"Vector3ListValue\":{\"type\":\"UnityEngine.Vector3[]\",\"value\":\"[]\"}}}]"
+            }
+        }
+    }
+}
